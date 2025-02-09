@@ -30,7 +30,7 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 ## 🚀 Featured Projects  
 ### **1️⃣ Kubernetes Cluster on AWS EKS**  
 📌 **Deployed a Kubernetes cluster using Amazon EKS** with auto-scaling, IAM role-based access, and monitoring with Prometheus & Grafana.  
-🔗 [GitHub Repo](#) | 📝 [Project Details](#)
+🔗 [GitHub Repo](https://github.com/SecureCloudOps/KubernetesLab) 
 
 ### **2️⃣ Cloud Security Hardening for AWS Workloads**  
 🔐 Implemented best security practices for **IAM, VPC, and S3 encryption**, ensuring compliance with industry standards.  
