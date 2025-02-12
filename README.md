@@ -1,6 +1,6 @@
-# Hi there! 👋 I'm Mohamed A Mohamed
+# Hi there! 👋 I'm Mohamed 
 
-🚀 **Cloud Engineer | Kubernetes Enthusiast | AWS Certified**
+🚀 Cloud Engineer | DevSecOps Enthusiast | AWS Certified 🔐☁️
 
 ---
 
