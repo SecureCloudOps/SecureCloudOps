@@ -36,6 +36,10 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 🐳**Built a custom container image**, Ran containerized locally, Deployed my containerized application to AWS Elastic Beanstalk.  
 🔗 [GitHub Repo](https://github.com/SecureCloudOps/DockerLab)
 
+3️⃣ Securing the Cloud: AWS IAM Best Practices
+🛡️ Created IAM policies and user groups, Managed access control with least privilege, Configured AWS account alias for better security and identification.      
+🔗 [GitHub Repo](https://github.com/SecureCloudOps/AWSIAM)
+
 ---
 
 ## 📫 Let's Connect!  
