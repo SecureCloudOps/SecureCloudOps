@@ -40,6 +40,10 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 🛡️ Created IAM policies and user groups, Managed access control with least privilege, Configured AWS account alias for better security and identification.      
 🔗 [GitHub Repo](https://github.com/SecureCloudOps/AWSIAM)
 
+### **4️⃣ Automating S3 Bucket Deployment with Terraform**
+🚀 Provisioned an S3 bucket using Terraform, Configured backend state management, Utilized AWS access keys to authenticate and deploy resources from a local machine securely.       
+🔗 [GitHub Repo](https://github.com/SecureCloudOps/S3-Automated)
+
 ---
 
 ## 📫 Let's Connect!  
