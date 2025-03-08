@@ -32,7 +32,7 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 
 ## 🚀 Featured Projects  
 ### **1️⃣ Kubernetes Deployment Automation**  
-🛂 **Kubernetes deployment** clone a backend application from GitHub, build a Docker image of the backend, and push it to an Amazon ECR repository.
+🛂 **Kubernetes deployment** clone a backend application from GitHub, build a Docker image of the backend, and push it to an Amazon ECR repository.    
 🔗 [GitHub Repo](https://github.com/SecureCloudOps/Kubernetes-Deployment)  
 
 ### **2️⃣ Kubernetes Cluster on AWS EKS**  
