@@ -40,11 +40,7 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 👉 [GitHub Repo](https://github.com/SecureCloudOps/terraform-security-project)  
 
 ### **2️⃣ AWS GuardDuty Security Monitoring**  
-🔎 **Deployed a security monitoring solution using AWS GuardDuty** to detect threats and vulnerabilities in an AWS environment.  
-- Deployed a **vulnerable web application** to simulate a security attack.  
-- Used **hacking techniques to steal credential information**.  
-- Configured **GuardDuty to detect suspicious activities**.  
-- Implemented **malware protection and response strategies**.  
+🔎 **Deployed a security monitoring solution using AWS GuardDuty** to detect threats and vulnerabilities in an AWS environment. Deployed a **vulnerable web application** to simulate a security attack. Used **hacking techniques to steal credential information**. Configured **GuardDuty to detect suspicious activities**. Implemented **malware protection and response strategies**.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/GuardDuty-Security)  
 
 ### **3️⃣ Kubernetes Deployment Automation**  
