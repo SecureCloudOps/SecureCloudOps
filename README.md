@@ -32,11 +32,7 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 
 ## 🚀 Featured Projects  
 ### **1️⃣ Securing AWS S3 with Terraform**  
-🛡️ **Implemented security best practices using Terraform to secure AWS S3 storage.**  
-- Enforced **S3 encryption** using AWS KMS.  
-- Blocked **public access and misconfigurations**.  
-- Implemented **logging and versioning** for compliance and security monitoring.  
-- Used **Terraform security scanners (tfsec & Checkov)** to remediate vulnerabilities.  
+🛡️ **Implemented security best practices using Terraform to secure AWS S3 storage.** Enforced **S3 encryption** using AWS KMS. Blocked **public access and misconfigurations**. Implemented **logging and versioning** for compliance and security monitoring. Used **Terraform security scanners (tfsec & Checkov)** to remediate vulnerabilities.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/terraform-security-project)  
 
 ### **2️⃣ AWS GuardDuty Security Monitoring**  
