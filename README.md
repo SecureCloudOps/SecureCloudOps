@@ -31,7 +31,7 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 ---
 
 ## 🚀 Featured Projects  
-### **1️⃣ Secure Flask App on AWS EKS with Kyverno, ALB, and Grafana**  
+### **1️⃣ Secure Flask App on AWS EKS with Kyverno and ALB**  
 🔐 **Designed and deployed a secure, observable Flask application on Amazon EKS** using Terraform. Implemented **Kyverno policies** (no root users, read-only filesystems, dropped Linux capabilities), configured **AWS ALB Ingress** for secure exposure, and integrated **Ingress**. Tackled real-world challenges like ENI dependency issues, policy conflicts, and Ingress DNS troubleshooting.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/secure-flask-eks)
 
