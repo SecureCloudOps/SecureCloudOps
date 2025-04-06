@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Mohamed  
+# Hi there! I'm Mohamed  
 
 🚀 **Cloud Engineer | DevSecOps Enthusiast | AWS Certified 🔐☁️**  
 
@@ -31,39 +31,43 @@ I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cl
 ---
 
 ## 🚀 Featured Projects  
-### **1️⃣ Securing AWS S3 with Terraform**  
+### **1️⃣ Secure Flask App on AWS EKS with Kyverno, ALB, and Grafana**  
+🔐 **Designed and deployed a secure, observable Flask application on Amazon EKS** using Terraform. Implemented **Kyverno policies** (no root users, read-only filesystems, dropped Linux capabilities), configured **AWS ALB Ingress** for secure exposure, and integrated **Grafana monitoring via Ingress**. Tackled real-world challenges like ENI dependency issues, policy conflicts, and Ingress DNS troubleshooting.  
+👉 [GitHub Repo](https://github.com/SecureCloudOps/secure-flask-eks)
+
+### **2️⃣ Securing AWS S3 with Terraform**  
 🛡️ **Implemented security best practices using Terraform to secure AWS S3 storage.** Enforced **S3 encryption** using AWS KMS. Blocked **public access and misconfigurations**. Implemented **logging and versioning** for compliance and security monitoring. Used **Terraform security scanners (tfsec & Checkov)** to remediate vulnerabilities.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/terraform-security-project)  
 
-### **2️⃣ AWS GuardDuty Security Monitoring**  
+### **3️⃣ AWS GuardDuty Security Monitoring**  
 🔎 **Deployed a security monitoring solution using AWS GuardDuty** to detect threats and vulnerabilities in an AWS environment. Deployed a **vulnerable web application** to simulate a security attack. Used **hacking techniques to steal credential information**. Configured **GuardDuty to detect suspicious activities**. Implemented **malware protection and response strategies**.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/GuardDuty-Security)  
 
-### **3️⃣ Kubernetes Deployment Automation**  
+### **4️⃣ Kubernetes Deployment Automation**  
 🛠 **Automated Kubernetes deployment** to build and deploy backend applications in Amazon EKS.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/Kubernetes-Deployment)  
 
-### **4️⃣ Kubernetes Cluster on AWS EKS**  
+### **5️⃣ Kubernetes Cluster on AWS EKS**  
 💡 **Deployed a scalable Kubernetes cluster using Amazon EKS** with auto-scaling, IAM authentication, and monitoring with CloudFormation.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/KubernetesLab)  
 
-### **5️⃣ Automating S3 Bucket Deployment with Terraform**  
+### **6️⃣ Automating S3 Bucket Deployment with Terraform**  
 🚀 **Provisioned an S3 bucket using Terraform**, configured backend state management, and secured authentication with AWS access keys.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/S3-Automated)  
 
-### **6️⃣ Containerization with Docker**  
+### **7️⃣ Containerization with Docker**  
 🐳 **Built and deployed a containerized application** with Docker, ran it locally, and deployed to AWS Elastic Beanstalk for scalability.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/DockerLab)  
 
-### **7️⃣ Encrypting Data with AWS KMS**  
+### **8️⃣ Encrypting Data with AWS KMS**  
 🔒 Implemented **AWS KMS encryption** for secure data storage, managed encryption keys, and enforced compliance with security policies.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/AWS-KMS)  
 
-### **8️⃣ Securing the Cloud: AWS IAM Best Practices**  
+### **9️⃣ Securing the Cloud: AWS IAM Best Practices**  
 🛡 **Designed IAM policies and user groups** with least privilege access and configured AWS security best practices.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/AWSIAM)  
 
-### **9️⃣ Visualizing a Relational Database**  
+### **🔟 Visualizing a Relational Database**  
 📊 Created a **fully interactive database visualization** using AWS RDS, Grafana, and Prometheus to monitor database performance.  
 👉 [GitHub Repo](https://github.com/SecureCloudOps/Database-Visualization)  
 
