@@ -1,95 +1,94 @@
-# Hi there! I'm Mohamed  
-
-🚀 **Cloud Engineer | DevSecOps Enthusiast | AWS Certified 🔐☁️**  
+# Hi, I'm Mohamed A. Mohamed  
+**Cloud Engineer | DevSecOps Enthusiast | AWS Certified Professional**
 
 ---
 
 ## About Me  
-I am a passionate **Cloud Engineer** with expertise in **AWS, Kubernetes, and Cloud Security**. I specialize in designing and deploying **scalable, secure, and automated cloud solutions** using **EKS, Terraform, and CI/CD pipelines**.  
+I am a results-driven **Cloud Engineer** with hands-on expertise in **AWS, Kubernetes, and Cloud Security**. My focus is on designing and automating **secure, scalable, and compliant cloud infrastructures** using **Terraform, EKS, and CI/CD pipelines**.  
 
-- 💡 Focused on **Cloud Security, DevOps, and Infrastructure as Code (IaC)**  
-- 🚀 Hands-on experience in **Cloud Automation, Kubernetes Orchestration, and AWS Security Best Practices**  
-- 🎯 Seeking opportunities to build **resilient, high-availability cloud architectures**  
-
----
-
-## 🎓 Certifications  
-👉 [**AWS Solutions Architect – Associate**](https://www.credly.com/badges/cd639be7-63a3-40cc-8c35-55e1ff18717b/public_url)  
-👉 [**AWS SysOps Administrator – Associate**](https://www.credly.com/badges/11c74b83-3679-4748-b4a0-96bb952c44ad/public_url)  
-👉 [**Certified Kubernetes Administrator (CKA)**](https://www.credly.com/badges/760321ff-dd42-4a98-91de-7d306c99d6ed/public_url)  
+- Specializing in **Cloud Security, DevOps, and Infrastructure as Code (IaC)**  
+- Experienced in **automation, observability, and compliance-driven deployments**  
+- Passionate about **building resilient, production-ready cloud architectures**
 
 ---
 
-## 🏢 Tech Stack  
-- **Cloud Platforms:** AWS (EKS, EC2, S3, IAM, VPC, CloudTrail, GuardDuty)  
-- **Containerization & Orchestration:** Docker, Kubernetes (EKS)  
-- **Infrastructure as Code (IaC):** Terraform, CloudFormation  
-- **CI/CD & Automation:** GitHub Actions, Jenkins, Ansible  
-- **Security & Compliance:** AWS IAM, KMS, Security Groups, CIS Benchmarking, GuardDuty  
-- **Programming & Scripting:** Python, Bash  
+## Certifications  
+- [AWS Solutions Architect – Associate](https://www.credly.com/badges/cd639be7-63a3-40cc-8c35-55e1ff18717b/public_url)  
+- [AWS SysOps Administrator – Associate](https://www.credly.com/badges/11c74b83-3679-4748-b4a0-96bb952c44ad/public_url)  
+- [Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/760321ff-dd42-4a98-91de-7d306c99d6ed/public_url)  
 
 ---
 
-## 🚀 Featured Projects  
-
-### **1️⃣ HIPAA-Compliant Cloud Architecture on AWS**  
-🏥 **Designed and deployed a fully HIPAA-compliant cloud infrastructure on AWS** using Terraform. Built a secure three-tier architecture with **HTTPS via ACM + ALB, ECS Fargate for containerized workloads, encrypted RDS + S3, CloudTrail, GuardDuty**, and **SNS alerting for violations**. This project demonstrates strong compliance alignment and security automation.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/hipaa-compliant-aws-infra)
-
-### **2️⃣ Secure GenAI API Deployment on AWS ECS with Terraform**  
-🧠 **Built and deployed a generative AI API on ECS Fargate**, secured with **HTTPS via ACM, Secrets Manager, IAM least privilege**, and **Docker hardening best practices**. Integrated **CloudTrail and GuardDuty** for continuous monitoring.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/secure-genai-ecs)
-
-### **3️⃣ CI/CD Pipeline Security with Flask, GitHub Actions, and Terraform**  
-🔁 **Developed a secure CI/CD pipeline** using **GitHub Actions to automate testing, Docker image builds, and Terraform-based EKS deployments** for a Flask app. Integrated **security checks (tfsec, Checkov)** and AWS IAM roles for least privilege.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/secure-flask-ci)
-
-### **4️⃣ Secure Flask App on AWS EKS with Kyverno and ALB**  
-🔐 **Designed and deployed a secure, observable Flask application on Amazon EKS** using Terraform. Implemented **Kyverno policies** (no root users, read-only filesystems, dropped Linux capabilities), configured **AWS ALB Ingress** for secure exposure, and integrated **Ingress**. Tackled real-world challenges like ENI dependency issues, policy conflicts, and Ingress DNS troubleshooting.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/secure-flask-eks)
-
-### **5️⃣ Securing AWS S3 with Terraform**  
-🛡️ **Implemented security best practices using Terraform to secure AWS S3 storage.** Enforced **S3 encryption** using AWS KMS. Blocked **public access and misconfigurations**. Implemented **logging and versioning** for compliance and security monitoring. Used **Terraform security scanners (tfsec & Checkov)** to remediate vulnerabilities.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/terraform-security-project)  
-
-### **6️⃣ AWS GuardDuty Security Monitoring**  
-🔎 **Deployed a security monitoring solution using AWS GuardDuty** to detect threats and vulnerabilities in an AWS environment. Deployed a **vulnerable web application** to simulate a security attack. Used **hacking techniques to steal credential information**. Configured **GuardDuty to detect suspicious activities**. Implemented **malware protection and response strategies**.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/GuardDuty-Security)  
-
-### **7️⃣ Kubernetes Deployment Automation**  
-🛠 **Automated Kubernetes deployment** to build and deploy backend applications in Amazon EKS.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/Kubernetes-Deployment)  
-
-### **8️⃣ Kubernetes Cluster on AWS EKS**  
-💡 **Deployed a scalable Kubernetes cluster using Amazon EKS** with auto-scaling, IAM authentication, and monitoring with CloudFormation.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/KubernetesLab)  
-
-### **9️⃣ Automating S3 Bucket Deployment with Terraform**  
-🚀 **Provisioned an S3 bucket using Terraform**, configured backend state management, and secured authentication with AWS access keys.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/S3-Automated)  
-
-### **🔟 Containerization with Docker**  
-🐳 **Built and deployed a containerized application** with Docker, ran it locally, and deployed to AWS Elastic Beanstalk for scalability.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/DockerLab)  
-
-### **🔢 Encrypting Data with AWS KMS**  
-🔒 Implemented **AWS KMS encryption** for secure data storage, managed encryption keys, and enforced compliance with security policies.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/AWS-KMS)  
-
-### **🔣 Securing the Cloud: AWS IAM Best Practices**  
-🛡 **Designed IAM policies and user groups** with least privilege access and configured AWS security best practices.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/AWSIAM)  
-
-### **📊 Visualizing a Relational Database**  
-📈 Created a **fully interactive database visualization** using AWS RDS, Grafana, and Prometheus to monitor database performance.  
-👉 [GitHub Repo](https://github.com/SecureCloudOps/Database-Visualization)  
+## Technical Skills  
+**Cloud Platforms:** AWS (EKS, EC2, S3, IAM, VPC, CloudTrail, GuardDuty)  
+**Containers & Orchestration:** Docker, Kubernetes (EKS)  
+**Infrastructure as Code:** Terraform, AWS CloudFormation  
+**CI/CD & Automation:** GitHub Actions, Jenkins, Ansible  
+**Security & Compliance:** IAM, KMS, Security Groups, CIS Benchmarks, GuardDuty  
+**Languages & Scripting:** Python, Bash  
 
 ---
 
-## 💌 Let's Connect!  
-🌟 [LinkedIn](https://www.linkedin.com/in/mohamed-mohamed-81a138a8/)  
-📧 **Email:** mohamed0395@gmail.com  
+## Featured Projects  
+
+### 1. HIPAA-Compliant Cloud Architecture on AWS  
+Designed and deployed a **HIPAA-compliant three-tier architecture** on AWS using Terraform. Implemented **HTTPS via ACM and ALB, ECS Fargate for containerized workloads, encrypted RDS and S3**, and integrated **CloudTrail, GuardDuty, and SNS alerts** for compliance and monitoring.  
+[View Project](https://github.com/SecureCloudOps/hipaa-compliant-aws-infra)
+
+### 2. Secure GenAI API Deployment on AWS ECS  
+Built a **Generative AI API** on ECS Fargate with **ACM-based HTTPS, IAM least privilege, Secrets Manager, and Docker hardening**. Integrated **CloudTrail and GuardDuty** for continuous threat detection.  
+[View Project](https://github.com/SecureCloudOps/secure-genai-ecs)
+
+### 3. CI/CD Pipeline Security with Flask and Terraform  
+Developed a **secure CI/CD pipeline** using GitHub Actions to automate testing, Docker builds, and Terraform-based EKS deployments. Integrated **security scanners (tfsec, Checkov)** and implemented **least privilege IAM roles** for automation.  
+[View Project](https://github.com/SecureCloudOps/secure-flask-ci)
+
+### 4. Secure Flask App on AWS EKS with Kyverno  
+Deployed a **secure Flask application** on Amazon EKS using Terraform. Enforced **Kyverno security policies**, implemented **read-only file systems**, and configured **ALB Ingress** for secure public access.  
+[View Project](https://github.com/SecureCloudOps/secure-flask-eks)
+
+### 5. Securing AWS S3 with Terraform  
+Implemented **S3 security best practices** using Terraform, enforcing **KMS encryption, public access blocking, logging, and versioning**. Integrated **tfsec and Checkov** scans for compliance validation.  
+[View Project](https://github.com/SecureCloudOps/terraform-security-project)
+
+### 6. AWS GuardDuty Security Monitoring  
+Configured **AWS GuardDuty** to detect and respond to simulated attacks in a controlled AWS environment. Deployed a vulnerable app to test **threat detection, credential exfiltration alerts, and malware protection**.  
+[View Project](https://github.com/SecureCloudOps/GuardDuty-Security)
+
+### 7. Kubernetes Deployment Automation  
+Automated **Kubernetes deployments** for backend applications on Amazon EKS, improving scalability and developer velocity.  
+[View Project](https://github.com/SecureCloudOps/Kubernetes-Deployment)
+
+### 8. Kubernetes Cluster on AWS EKS  
+Provisioned a **scalable Kubernetes cluster** with EKS using CloudFormation. Implemented **auto-scaling, IAM authentication, and monitoring** for high availability.  
+[View Project](https://github.com/SecureCloudOps/KubernetesLab)
+
+### 9. Automated S3 Bucket Deployment with Terraform  
+Provisioned and secured **S3 buckets** using Terraform with backend state management and AWS IAM authentication.  
+[View Project](https://github.com/SecureCloudOps/S3-Automated)
+
+### 10. Containerization with Docker  
+Containerized a web application using **Docker** and deployed it to **AWS Elastic Beanstalk** for testing and scalability validation.  
+[View Project](https://github.com/SecureCloudOps/DockerLab)
+
+### 11. Encrypting Data with AWS KMS  
+Implemented **data-at-rest encryption** using AWS KMS, managed encryption keys, and enforced secure access policies.  
+[View Project](https://github.com/SecureCloudOps/AWS-KMS)
+
+### 12. AWS IAM Best Practices  
+Designed **IAM roles, policies, and groups** following least privilege principles to enforce a secure AWS environment.  
+[View Project](https://github.com/SecureCloudOps/AWSIAM)
+
+### 13. Database Visualization with Grafana  
+Built an interactive **database monitoring dashboard** with AWS RDS, Grafana, and Prometheus to visualize performance metrics and query insights.  
+[View Project](https://github.com/SecureCloudOps/Database-Visualization)
 
 ---
 
-**✨ "Building scalable, secure cloud solutions—one container at a time!"** 🚀
+## Connect  
+- **LinkedIn:** [linkedin.com/in/mohamed-mohamed-81a138a8](https://www.linkedin.com/in/mohamed-mohamed-81a138a8/)  
+- **Email:** mohamed0395@gmail.com  
+
+---
+
+**“Building secure, scalable cloud systems that deliver reliability and trust.”**
