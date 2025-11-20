@@ -15,7 +15,8 @@ I am a results-driven **Cloud Engineer** with hands-on expertise in **AWS, Kuber
 ## Certifications  
 - [AWS Solutions Architect – Associate](https://www.credly.com/badges/cd639be7-63a3-40cc-8c35-55e1ff18717b/public_url)  
 - [AWS SysOps Administrator – Associate](https://www.credly.com/badges/11c74b83-3679-4748-b4a0-96bb952c44ad/public_url)  
-- [Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/760321ff-dd42-4a98-91de-7d306c99d6ed/public_url)  
+- [Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/760321ff-dd42-4a98-91de-7d306c99d6ed/public_url)
+- [CompTIA Security+ ce Certification](https://www.credly.com/badges/62d4ead1-fc93-47b1-86c9-804b636e285d/public_url)
 
 ---
 
