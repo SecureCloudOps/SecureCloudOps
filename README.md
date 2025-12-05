@@ -88,17 +88,6 @@ Built a secure GenAI inference API using ECS with **encryption, HTTPS, IAM guard
 
 ---
 
-# 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SecureCloudOps&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SecureCloudOps&layout=compact&hide_border=true" alt="Top languages" />
-</p>
-
----
 
 # 🤝 Connect With Me
 📩 Email: **mohamed0395@gmail.com**  
