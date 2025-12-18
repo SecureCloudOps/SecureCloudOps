@@ -7,7 +7,7 @@
 
 ---
 
-## 👋 About Me
+## About Me
 I am a hands-on **Cloud and DevSecOps Engineer** with a strong focus on building secure, scalable, and resilient systems on AWS. I automate infrastructure using **Terraform and Kubernetes**, secure workloads using **least privilege IAM and compliance checks**, and design **production ready CI and CD pipelines** with high reliability.
 
 I enjoy delivering cloud projects that are:
