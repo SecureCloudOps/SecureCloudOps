@@ -47,8 +47,18 @@ I enjoy delivering cloud projects that are:
 ---
 
 # 🚀 Featured Projects
+## ⭐ Autonomous AWS Security and Compliance Enforcement Platform (LATEST)
+Designed and implemented an **autonomous cloud security platform** that enforces preventive, detective, and corrective controls across AWS and Kubernetes. The platform integrates **Infrastructure as Code, Policy as Code, and CI enforcement** aligned with **CIS AWS Foundations Benchmark**.
 
-## ⭐ AWS GuardDuty Auto Remediation with Lambda and Terraform (LATEST)
+✔ Preventive controls using Terraform and policy guardrails  
+✔ CI based security enforcement with GitHub Actions  
+✔ Runtime admission control using OPA Gatekeeper in EKS  
+✔ Centralized logging, compliance validation, and security automation  
+
+🔗 **Project Repo:** https://github.com/SecureCloudOps/autonomous-aws-security-platform
+
+
+## ⭐ AWS GuardDuty Auto Remediation with Lambda and Terraform 
 Automated security remediation for GuardDuty findings on AWS using **Lambda, CloudTrail, SNS notifications, least privilege IAM, and Terraform modules**. Integrated logging, monitoring, and security controls for real time alerting and automated response.
 
 ✔ Automated credential revocation  
