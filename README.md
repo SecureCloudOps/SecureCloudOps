@@ -42,7 +42,7 @@ I enjoy delivering cloud projects that are:
 **Containers:** Docker, Kubernetes, Helm  
 **CI and CD:** GitHub Actions, security scanners, least privilege IAM  
 **Security:** CIS Benchmarks, TLS encryption, Secrets Manager, KMS  
-**Languages:** Python, PowerShell  
+**Languages:** Python, PowerShell, Bash, Linux
 
 ---
 
