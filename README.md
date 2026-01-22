@@ -2,25 +2,27 @@
 <p align="center"><b>Cloud Engineer | DevSecOps Specialist | AWS Certified</b></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-Security%20%26%20Reliability-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/AWS-Cloud%20Security%20%26%20Reliability-blue?style=flat-square" />
 </p>
 
 ---
 
 ## About
-I am a hands-on **Cloud and DevSecOps Engineer** specializing in designing, securing, and automating production-grade cloud platforms on AWS. My work focuses on building systems that are secure by default, highly reliable, and operationally efficient.
 
-I bring a strong infrastructure and security mindset to every project, combining **Infrastructure as Code, Kubernetes, CI/CD automation, and cloud security controls** to reduce risk, improve delivery speed, and support compliance requirements.
+I am a hands-on **Cloud and DevSecOps Engineer** focused on designing, securing, and automating production-grade cloud platforms on AWS. My work emphasizes infrastructure that is secure by default, resilient under failure, and operationally efficient.
+
+I approach engineering problems with a strong security and reliability mindset, combining **Infrastructure as Code, cloud-native security controls, CI/CD automation, and observability** to reduce risk and improve delivery outcomes. My projects are intentionally built to reflect real-world constraints, including least-privilege access, cost awareness, and safe-to-publish practices.
 
 I am particularly focused on:
 - Secure and compliant cloud architectures  
 - Automation-first infrastructure and deployments  
 - Reliability, observability, and operational excellence  
-- Cost awareness and least-privilege access models  
+- Cost control and least-privilege access models  
 
 ---
 
 ## Certifications
+
 <p>
   <a href="https://www.credly.com/badges/cd639be7-63a3-40cc-8c35-55e1ff18717b/public_url">
     <img src="https://img.shields.io/badge/AWS%20Solutions%20Architect%20Associate-informational?style=flat-square&logo=amazonaws" />
@@ -41,31 +43,44 @@ I am particularly focused on:
 ## Technical Focus
 
 **Cloud Platforms**  
-AWS, EKS, EC2, S3, IAM, VPC, CloudTrail, GuardDuty, ALB
+AWS, VPC, IAM, EC2, ECS, EKS, ALB, CloudFront, S3, CloudTrail, GuardDuty
 
 **Infrastructure as Code**  
-Terraform (modules, remote state, least privilege), CloudFormation
+Terraform (modules, remote state, environment isolation, least privilege), CloudFormation
 
 **Containers and Orchestration**  
-Docker, Kubernetes, Helm, admission controls
+Docker, Kubernetes, Helm, admission controls and policy enforcement
 
 **CI/CD and Automation**  
-GitHub Actions, OIDC authentication, security scanning, policy enforcement
+GitHub Actions, OIDC authentication, infrastructure validation, security scanning
 
 **Security and Compliance**  
-CIS Benchmarks, IAM Access Analyzer, KMS, Secrets Manager, encryption in transit and at rest
+AWS WAF, IAM Access Analyzer, KMS, encryption in transit and at rest, CIS-aligned design
 
-**Languages and OS**  
+**Languages and Operating Systems**  
 Python, Bash, PowerShell, Linux
 
 ---
 
 ## Featured Projects
 
-### Autonomous AWS Security and Compliance Enforcement Platform
-Designed and implemented an autonomous security platform enforcing preventive, detective, and corrective controls across AWS and Kubernetes, aligned with the CIS AWS Foundations Benchmark.
+### Enterprise-Grade DDoS Protection on AWS with Terraform
+Designed and deployed a production-style, defense-in-depth architecture to protect internet-facing workloads from DDoS and abusive traffic using native AWS services and Terraform best practices.
 
-- Enforced policy guardrails using Terraform and Policy-as-Code  
+- Implemented layered edge protection using CloudFront and AWS WAF with managed rules, geo controls, and rate limiting  
+- Secured a private ECS Fargate backend behind an Application Load Balancer with controlled network boundaries  
+- Centralized CloudFront and ALB access logs in S3 with encryption, lifecycle policies, and restricted access  
+- Used Terraform modules, remote state, and environment isolation to mirror real-world infrastructure workflows  
+- Designed as a safe-to-publish DevSecOps portfolio project with no secrets, no custom domains, and manual-only CI  
+
+🔗 https://github.com/SecureCloudOps/enterprise-ddos-terraform-aws
+
+---
+
+### Autonomous AWS Security and Compliance Enforcement Platform
+Built an automated security platform enforcing preventive, detective, and corrective controls across AWS and Kubernetes, aligned with the CIS AWS Foundations Benchmark.
+
+- Enforced infrastructure guardrails using Terraform and policy-as-code  
 - Implemented CI-based security enforcement with GitHub Actions  
 - Deployed runtime admission control using OPA Gatekeeper on EKS  
 - Centralized logging, compliance validation, and automated remediation  
@@ -75,25 +90,21 @@ Designed and implemented an autonomous security platform enforcing preventive, d
 ---
 
 ### AWS GuardDuty Auto Remediation with Lambda
-Built an automated security response system for GuardDuty findings using Lambda, Terraform modules, CloudTrail logging, SNS notifications, and least-privilege IAM.
-
-- Automated credential revocation and threat response  
-- Real-time detection and alerting  
-- Modular Terraform design with security-first defaults  
+Implemented an automated security response system for GuardDuty findings using Lambda, Terraform modules, CloudTrail logging, SNS notifications, and least-privilege IAM.
 
 🔗 https://github.com/SecureCloudOps/aws-guardduty-auto-remediation-demo
 
 ---
 
 ### Secure Flask Application on AWS EKS
-Deployed a hardened containerized application on EKS using Kyverno, read-only file systems, ALB ingress, and Terraform-based infrastructure.
+Deployed a hardened containerized application on EKS using Kyverno policies, read-only filesystems, ALB ingress, and Terraform-based infrastructure.
 
 🔗 https://github.com/SecureCloudOps/secure-flask-eks
 
 ---
 
 ### CI/CD Pipeline Security on AWS
-Implemented a secure CI/CD pipeline using GitHub Actions with container scanning, Terraform validation, OIDC authentication, and least-privilege IAM roles.
+Built a secure CI/CD pipeline using GitHub Actions with Terraform validation, container scanning, OIDC authentication, and least-privilege IAM roles.
 
 🔗 https://github.com/SecureCloudOps/secure-flask-ci
 
@@ -114,7 +125,8 @@ Built a secure GenAI inference API on ECS with HTTPS, encryption, IAM guardrails
 ---
 
 ## Connect
-📩 Email: **mohamed0395@gmail.com**  
-🔗 LinkedIn: https://www.linkedin.com/in/mohamed-mohamed-81a138a8/
+
+Email: **mohamed0395@gmail.com**  
+LinkedIn: https://www.linkedin.com/in/mohamed-mohamed-81a138a8/
 
 <p align="center"><b>Building secure, automated, and reliable cloud platforms</b></p>
