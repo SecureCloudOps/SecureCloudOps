@@ -64,6 +64,21 @@ Python, Bash, PowerShell, Linux
 
 ## Featured Projects
 
+---
+
+### Secure Kubernetes DevSecOps Platform on AWS
+
+Designed and implemented a production-style Kubernetes delivery platform combining Terraform-managed infrastructure, secure CI/CD, and policy enforcement to demonstrate end-to-end DevSecOps practices on AWS.
+
+- Provisioned a private **Amazon EKS cluster and supporting VPC infrastructure using Terraform modules with remote state and environment isolation**
+- Built a **secure CI/CD pipeline with GitHub Actions**, container image scanning (Trivy), and least-privilege OIDC authentication to AWS
+- Implemented a **self-hosted GitHub Actions runner inside the VPC** to enable deployments to a private EKS cluster
+- Enforced Kubernetes guardrails using **Kyverno admission policies**, including restrictions on privileged containers, resource requirements, and image tagging policies
+- Added **network policies and policy-as-code validation (OPA/Conftest)** to prevent insecure Kubernetes configurations before deployment
+- Applied DevSecOps best practices including immutable container tags, minimal permissions, and automated validation checks
+
+🔗 https://github.com/SecureCloudOps/secure-k8s-devsecops
+
 ### Enterprise-Grade DDoS Protection on AWS with Terraform
 Designed and deployed a production-style, defense-in-depth architecture to protect internet-facing workloads from DDoS and abusive traffic using native AWS services and Terraform best practices.
 
