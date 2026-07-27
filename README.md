@@ -129,7 +129,7 @@ Building secure infrastructure across AWS and Azure using Terraform, GitOps, reu
 
 📧 **Email:** mohamed0395@gmail.com
 
-💼 **LinkedIn:** https://www.linkedin.com/in/mohamed-mohamed-81a138a8/
+💼 **LinkedIn:** https://www.linkedin.com/in/mohamed007-cloud/
 
 ---
 
