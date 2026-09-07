@@ -1,138 +1,65 @@
-<h1 align="center">Mohamed A. Mohamed</h1>
+# Mohamed A. Mohamed
 
-<p align="center">
-  <b>Cloud Platform Engineer • DevSecOps • AI Infrastructure</b>
-</p>
+### Platform Engineer | AWS • Kubernetes • DevSecOps
 
-<p align="center">
-Building secure cloud platforms, Kubernetes operators, AI infrastructure, and production-grade automation.
-</p>
+I build secure cloud platforms, automate application delivery, and test how systems recover when things fail.
 
----
+My independent projects focus on GitOps, least-privilege access, Kubernetes operators, and AI-assisted incident investigation. Each project documents its implementation, validation evidence, and limitations.
 
-# 👋 About Me
+[Portfolio](https://securecloudops.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohamed007-cloud/) · [Email](mailto:mohamed0395@gmail.com)
 
-I'm a Cloud Platform Engineer focused on building secure, scalable, and production-ready cloud infrastructure. My work combines Platform Engineering, DevSecOps, Kubernetes, AI Infrastructure, and Infrastructure as Code to solve real operational challenges using modern cloud-native technologies.
+## Selected Engineering Projects
 
-I enjoy building systems that are secure by default, automated from the start, and designed with reliability, observability, and developer experience in mind.
+### [ForgePath](https://github.com/SecureCloudOps/ForgePath)
 
----
+A developer platform that turns a Backstage request into a secured FastAPI service delivered through GitOps.
 
-# 🚀 Current Focus
+- Enforces workload policies and verifies signed, immutable artifacts.
+- Demonstrated 5% canary containment and approximately 6.2-minute recovery during a controlled local incident exercise.
+- Includes architecture decisions, negative tests, and an incident postmortem.
 
-- 🔭 Building production-grade Platform Engineering and AI Infrastructure projects
-- ☁️ Designing secure cloud platforms with AWS and Azure
-- ⚙️ Kubernetes, Terraform, GitOps, and cloud automation
-- 🛡️ DevSecOps, Zero Trust, Policy as Code, and compliance automation
-- 🤖 AI Infrastructure, RAG platforms, and LLM deployment architectures
+**Backstage · Argo CD · Argo Rollouts · Kyverno · Prometheus**
 
----
+### [KubeBackup Operator](https://github.com/SecureCloudOps/database-backup-operator)
 
-# 💻 Tech Stack
+A Go Kubernetes operator for declarative PostgreSQL backups and checksum-verified restores.
 
-### Cloud
-- AWS
-- Azure
+- Supports MinIO and Amazon S3 storage.
+- Validated through 21 controller specs and 3 Kind end-to-end scenarios.
+- Includes hardened workloads, signed release artifacts, and recovery documentation.
 
-### Containers & Platform Engineering
-- Kubernetes
-- Docker
-- Helm
-- Argo CD
-- Backstage
+**Go · Kubernetes · PostgreSQL · S3 · Terraform**
 
-### Infrastructure as Code
-- Terraform
-- Crossplane
-- CloudFormation
+### [Kubernetes Security Triage Agent](https://github.com/SecureCloudOps/kubernetes-security-triage-agent)
 
-### CI/CD
-- GitHub Actions
-- Atlantis
+A read-only security scanner that correlates Kubernetes misconfigurations and image vulnerabilities, with optional OpenAI analysis.
 
-### Security
-- Kyverno
-- OPA Gatekeeper
-- Trivy
-- Checkov
-- Gitleaks
-- GuardDuty
-- IAM
-- KMS
+- Separates confirmed findings, plausible attack paths, and AI interpretation.
+- Restricts cluster access and prevents AI from changing deterministic findings.
+- Includes 189 automated tests and documented secure/vulnerable workload demonstrations.
 
-### Observability
-- Prometheus
-- Grafana
+**Python · Kubernetes RBAC · Trivy · OpenAI · JSON Schema**
 
-### Languages
-- Go
-- Python
-- Bash
+### [AWS Incident Triage Agent](https://github.com/SecureCloudOps/aws-incident-triage-agent)
 
----
+An AI-assisted investigation tool that collects ECS and CloudWatch evidence and produces structured incident analyses.
 
-# 🌟 Featured Projects
+- Uses read-only AWS permissions.
+- Separates observed facts from hypotheses and recommended next steps.
 
-## 🧠 Secure AI Platform Engineering
+**Python · AWS ECS · CloudWatch · IAM · OpenAI**
 
-Production-ready internal AI platform built on Kubernetes with Terraform, GitHub Actions, GitOps, Backstage, secure CI/CD pipelines, and AI-powered developer workflows.
+## Core Technologies
 
----
+- **Cloud & Infrastructure:** AWS, Terraform, Linux, networking
+- **Platform & Delivery:** Kubernetes, Docker, Helm, GitHub Actions, Argo CD, Backstage
+- **Security:** IAM, OIDC, Kyverno, Trivy, Checkov, Gitleaks
+- **Observability:** Prometheus, Grafana
+- **Languages:** Python, Go, Bash
 
-## 🤖 LLM RAG Infrastructure Platform
-
-Production-grade Retrieval-Augmented Generation platform using Kubernetes, FastAPI, Qdrant, vLLM, Argo CD, Terraform, and secure cloud-native deployment practices.
-
----
-
-## ☸️ Kubernetes Database Backup Operator
-
-Custom Kubernetes Operator written in Go that automates PostgreSQL backups and restores using Custom Resources, checksum verification, Amazon S3/MinIO, Prometheus metrics, and production security controls.
-
----
-
-## 🔐 Secure Kubernetes DevSecOps Platform
-
-Production-style Amazon EKS platform featuring secure CI/CD, GitHub Actions OIDC authentication, Kyverno policy enforcement, Infrastructure as Code, and cloud security best practices.
-
----
-
-## 🌍 Multi-Cloud Platform Engineering *(In Progress)*
-
-Building secure infrastructure across AWS and Azure using Terraform, GitOps, reusable modules, and cloud-native automation.
-
----
-
-# 🏅 Certifications
+## Certifications
 
 - AWS Certified Solutions Architect – Associate
 - AWS Certified SysOps Administrator – Associate
-- Certified Kubernetes Administrator (CKA)
+- Certified Kubernetes Administrator
 - CompTIA Security+
-
----
-
-# 🎯 Engineering Interests
-
-- Platform Engineering
-- Cloud Security
-- DevSecOps
-- AI Infrastructure
-- Kubernetes Operators
-- Infrastructure as Code
-- Distributed Systems
-- Site Reliability Engineering
-
----
-
-# 📫 Connect
-
-📧 **Email:** mohamed0395@gmail.com
-
-💼 **LinkedIn:** https://www.linkedin.com/in/mohamed007-cloud/
-
----
-
-<p align="center">
-<b>Always building. Always learning. Always automating.</b>
-</p>
