@@ -1,6 +1,6 @@
 # Mohamed A. Mohamed
 
-### Platform Engineer | AWS • Kubernetes • DevSecOps
+### Cloud Infrastructure • Automation • Security • Reliability
 
 I build secure cloud platforms, automate application delivery, and test how systems recover when things fail.
 
