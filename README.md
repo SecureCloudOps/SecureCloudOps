@@ -4,62 +4,37 @@
 
 I build secure cloud platforms, automate application delivery, and test how systems recover when things fail.
 
-My independent projects focus on GitOps, least-privilege access, Kubernetes operators, and AI-assisted incident investigation. Each project documents its implementation, validation evidence, and limitations.
+**AWS · Kubernetes · Terraform · Python · Go · GitHub Actions**
 
-[Portfolio](https://securecloudops.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohamed007-cloud/) · [Email](mailto:mohamed0395@gmail.com)
+Boston, MA · [Portfolio](https://securecloudops.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohamed007-cloud/) · [Email](mailto:mohamed0395@gmail.com)
 
 ## Selected Engineering Projects
 
+Independent projects with documented validation evidence and limitations. Results below come from controlled lab exercises.
+
+### [EKS Production Operations Lab](https://github.com/SecureCloudOps/eks-production-operations-lab)
+
+AWS EKS operations exercises covering staged upgrades, blocked drains, OOM triage, IAM remediation, and ingress failures.
+
+**Observed result:** Completed a Kubernetes 1.35 → 1.36 upgrade with 9 HTTP 502s across 26,611 requests; the zero-failure objective was not met. [Upgrade evidence](https://github.com/SecureCloudOps/eks-production-operations-lab/blob/main/evidence/cluster-upgrade/summary.md)
+
 ### [ForgePath](https://github.com/SecureCloudOps/ForgePath)
 
-A developer platform that turns a Backstage request into a secured FastAPI service delivered through GitOps.
+A secure self-service delivery platform connecting Backstage, GitOps, policy enforcement, and SLO-gated canary releases.
 
-- Enforces workload policies and verifies signed, immutable artifacts.
-- Demonstrated 5% canary containment and approximately 6.2-minute recovery during a controlled local incident exercise.
-- Includes architecture decisions, negative tests, and an incident postmortem.
-
-**Backstage · Argo CD · Argo Rollouts · Kyverno · Prometheus**
+**Observed result:** Contained a defective canary at 5% exposure and recorded approximately 6.2-minute recovery during a local incident exercise. [Incident evidence](https://github.com/SecureCloudOps/ForgePath/blob/main/docs/evidence/postmortems/INC-20260824T152814Z.md)
 
 ### [KubeBackup Operator](https://github.com/SecureCloudOps/database-backup-operator)
 
-A Go Kubernetes operator for declarative PostgreSQL backups and checksum-verified restores.
+A custom Go Kubernetes operator for PostgreSQL backups and checksum-verified restores using MinIO or Amazon S3.
 
-- Supports MinIO and Amazon S3 storage.
-- Validated through 21 controller specs and 3 Kind end-to-end scenarios.
-- Includes hardened workloads, signed release artifacts, and recovery documentation.
+**Validation:** 21 controller specs and 3 Kind end-to-end scenarios passed, including restored-data checks. [Validation evidence](https://github.com/SecureCloudOps/database-backup-operator#validation-evidence)
 
-**Go · Kubernetes · PostgreSQL · S3 · Terraform**
-
-### [Kubernetes Security Triage Agent](https://github.com/SecureCloudOps/kubernetes-security-triage-agent)
-
-A read-only security scanner that correlates Kubernetes misconfigurations and image vulnerabilities, with optional OpenAI analysis.
-
-- Separates confirmed findings, plausible attack paths, and AI interpretation.
-- Restricts cluster access and prevents AI from changing deterministic findings.
-- Includes 189 automated tests and documented secure/vulnerable workload demonstrations.
-
-**Python · Kubernetes RBAC · Trivy · OpenAI · JSON Schema**
-
-### [AWS Incident Triage Agent](https://github.com/SecureCloudOps/aws-incident-triage-agent)
-
-An AI-assisted investigation tool that collects ECS and CloudWatch evidence and produces structured incident analyses.
-
-- Uses read-only AWS permissions.
-- Separates observed facts from hypotheses and recommended next steps.
-
-**Python · AWS ECS · CloudWatch · IAM · OpenAI**
-
-## Core Technologies
-
-- **Cloud & Infrastructure:** AWS, Terraform, Linux, networking
-- **Platform & Delivery:** Kubernetes, Docker, Helm, GitHub Actions, Argo CD, Backstage
-- **Security:** IAM, OIDC, Kyverno, Trivy, Checkov, Gitleaks
-- **Observability:** Prometheus, Grafana
-- **Languages:** Python, Go, Bash
+**More projects:** [Kubernetes Security Triage Agent](https://github.com/SecureCloudOps/kubernetes-security-triage-agent) · [AWS Incident Triage Agent](https://github.com/SecureCloudOps/aws-incident-triage-agent) · [CloudSecOps LLM Fine-Tuning](https://github.com/SecureCloudOps/cloudsecops-llm-finetuning)
 
 ## Certifications
 
 - AWS Certified Solutions Architect – Associate
 - AWS Certified SysOps Administrator – Associate
-- Certified Kubernetes Administrator
+- Certified Kubernetes Administrator (CKA)
 - CompTIA Security+
